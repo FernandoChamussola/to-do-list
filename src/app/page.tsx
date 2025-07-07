@@ -15,16 +15,16 @@ export default function Home() {
 
   return (
     <main style={{ padding: '2rem', fontFamily: 'Arial' }}>
-      <h1>📋 Lista de Tarefas</h1>
+      <h1>📋 Lista de Tarefas 2.0.1</h1>
       
       <input
         type="text"
         value={novaTarefa}
         onChange={(e) => setNovaTarefa(e.target.value)}
-        placeholder="Digite uma nova tarefa"
+        placeholder="Digite uma nova tarefa aqui para adicionar"
         style={{
           padding: '0.5rem',
-          marginRight: '1rem',
+          marginRight: '2rem',
           width: '300px',
         }}
       />
